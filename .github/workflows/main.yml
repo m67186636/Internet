@@ -29,8 +29,12 @@ jobs:
         
       - name: Execute Update
         run: |
+          pwd
+          ls
           dotnet run --project source 
           cd target
+          pwd
+          ls
           git config --local user.email "m67186636@gmail.com"
           git config --local user.name "m67186636"
           git commit -a -m "Update All NetWork"          
