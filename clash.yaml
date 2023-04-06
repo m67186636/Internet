@@ -5,116 +5,1382 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0001\",\"ws-opts\":{\"path\":\"/vmess\",\"headers\":{\"host\":\"de-v.sshmax.xyz\"}},\"server\":\"104.16.176.44\",\"port\":\"443\",\"uuid\":\"c002de50-e64e-4328-b98a-fae82bdcafa4\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1FA\U0001F1F8美国-0001\",\"ws-opts\":{\"path\":\"/ECTCJ0DF\",\"headers\":{\"host\":\"154.v2ray3.xyz\"}},\"server\":\"203.30.190.1\",\"port\":\"443\",\"uuid\":\"40d496a6-ceeb-4096-baeb-4cc52b205621\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0002\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"us-1.acyun.eu.org\"}},\"server\":\"162.159.255.200\",\"port\":\"80\",\"uuid\":\"52466dc2-3550-4310-910c-74b7bf8a020e\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1EC\U0001F1E7英国-0001\",\"ws-opts\":{\"path\":\"/ECTCJ0DF\",\"headers\":{\"host\":\"154.v2ray3.xyz\"}},\"server\":\"185.162.228.1\",\"port\":\"443\",\"uuid\":\"40d496a6-ceeb-4096-baeb-4cc52b205621\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0003\",\"ws-opts\":{\"path\":\"/BVQEA\",\"headers\":{\"host\":\"fr1.v2ray6.xyz\"}},\"server\":\"23.227.38.41\",\"port\":\"443\",\"uuid\":\"faf28ac6-9109-4cf9-8e88-9798fcab66ed\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1FA\U0001F1F8美国-0002\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"lg.v2ray8.xyz\"}},\"server\":\"141.101.114.150\",\"port\":\"80\",\"uuid\":\"5f64fa65-7b14-49c5-954d-aa15c6bfcacd\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1F7\U0001F1FA俄罗斯联邦-0001\",\"ws-opts\":{\"path\":\"/6e9EtZ2dL\",\"headers\":{\"host\":\"dengxin.one\"}},\"server\":\"185.143.220.25\",\"port\":\"443\",\"uuid\":\"f28e354e-c2d1-4983-9b07-5acaf1b3b3e5\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E9\U0001F1EA德国-0001\",\"ws-opts\":{\"path\":\"/path/120306182525\",\"headers\":{\"host\":\"www.12939929.xyz\"}},\"server\":\"51.38.110.143\",\"port\":\"443\",\"uuid\":\"418048af-a293-4b99-9b0c-98ca3580dd24\",\"alterId\":\"64\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1F7哥斯达黎加-0001\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"fr.v2ray1.xyz\"}},\"server\":\"190.93.246.2\",\"port\":\"80\",\"uuid\":\"17b2a313-37a0-4945-a8e4-e63375506b4a\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1FE塞浦路斯-0001\",\"ws-opts\":{\"path\":\"/5QNROSRV\",\"headers\":{\"host\":\"clash1.ssr-free2.xyz\"}},\"server\":\"203.24.108.100\",\"port\":\"443\",\"uuid\":\"56a2188b-2ab7-402c-b9b8-34847fdf0958\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0004\",\"ws-opts\":{\"path\":\"/wwwnet\",\"headers\":{\"host\":\"usf.369777.xyz\"}},\"server\":\"104.16.33.253\",\"port\":\"80\",\"uuid\":\"363b3efe-1b74-38dd-9656-90c292006581\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0005\",\"ws-opts\":{\"path\":\"/wwwnet\",\"headers\":{\"host\":\"usf.ziyun.cyou\"}},\"server\":\"104.17.165.242\",\"port\":\"8080\",\"uuid\":\"363b3efe-1b74-38dd-9656-90c292006581\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0006\",\"ws-opts\":{\"path\":\"/wwwnet\",\"headers\":{\"host\":\"usc.ziyun.cyou\"}},\"server\":\"104.17.178.93\",\"port\":\"8080\",\"uuid\":\"363b3efe-1b74-38dd-9656-90c292006581\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0007\",\"ws-opts\":{\"path\":\"/wwwnet\",\"headers\":{\"host\":\"usc.ziyun.cyou\"}},\"server\":\"104.17.60.111\",\"port\":\"8080\",\"uuid\":\"363b3efe-1b74-38dd-9656-90c292006581\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0008\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"idnusanet.vpnexecutive.my.id\"}},\"server\":\"104.18.3.2\",\"port\":\"80\",\"uuid\":\"1d1c1d94-6987-4658-a4dc-8821a30fe7e0\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0009\",\"ws-opts\":{\"path\":\"/wwwnet\",\"headers\":{\"host\":\"usc.ziyun.cyou\"}},\"server\":\"104.19.32.60\",\"port\":\"8080\",\"uuid\":\"363b3efe-1b74-38dd-9656-90c292006581\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0010\",\"ws-opts\":{\"path\":\"/oplg1.zhujicn2.com/5QNROSRV\",\"headers\":{\"host\":\"anonymous.salisa.workers.dev\"}},\"server\":\"104.21.18.179\",\"port\":\"443\",\"uuid\":\"56a2188b-2ab7-402c-b9b8-34847fdf0958\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1EF\U0001F1F5日本-0001\",\"ws-opts\":{\"path\":\"/chat\",\"headers\":{\"host\":\"143.42.87.69\"}},\"server\":\"143.42.87.69\",\"port\":\"443\",\"uuid\":\"927094d3-d678-4763-8591-e240d0bcae87\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0011\",\"ws-opts\":{\"path\":\"/tg:@hkaa0\",\"headers\":{\"host\":\"us.wyhkaa0.ml\"}},\"server\":\"162.159.44.164\",\"port\":\"2052\",\"uuid\":\"238abf3f-b88d-4999-ea66-f51a8cd48e7a\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0012\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"us-1.acyun.eu.org\"}},\"server\":\"162.159.255.205\",\"port\":\"80\",\"uuid\":\"52466dc2-3550-4310-910c-74b7bf8a020e\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0013\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"sg4.562148.xyz\"}},\"server\":\"172.67.59.53\",\"port\":\"80\",\"uuid\":\"314c1387-618c-4689-97fc-4bc9a1ae5e05\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0014\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"lg.v2ray8.xyz\"}},\"server\":\"172.67.73.165\",\"port\":\"80\",\"uuid\":\"5f64fa65-7b14-49c5-954d-aa15c6bfcacd\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1EC\U0001F1E7英国-0002\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"h4.mcinet.sbs\"}},\"server\":\"185.109.21.175\",\"port\":\"8880\",\"uuid\":\"c11dde04-3dfa-48e9-8580-7b204b325370\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0015\",\"ws-opts\":{\"path\":\"/tg:@hkaa0\",\"headers\":{\"host\":\"us.wyhkaa0.ml\"}},\"server\":\"198.41.197.157\",\"port\":\"2095\",\"uuid\":\"3de8ae4c-f379-42f1-990e-24b7ea6eb457\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1FA\U0001F1F8美国-0003\",\"ws-opts\":{\"path\":\"/ray\",\"headers\":{\"host\":\"45.89.106.114\"}},\"server\":\"45.89.106.114\",\"port\":\"443\",\"uuid\":\"68b2f386-e061-40cb-8ca7-50e06c10b659\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1EC\U0001F1E7英国-0003\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"lg.v2ray8.xyz\"}},\"server\":\"185.162.228.229\",\"port\":\"80\",\"uuid\":\"5f64fa65-7b14-49c5-954d-aa15c6bfcacd\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1ED\U0001F1F0香港-0001\",\"ws-opts\":{\"path\":\"/aws-china-media/Y699Gjx2rNw.mp4\",\"headers\":{\"host\":\"media.amazonwebservices.com\"}},\"server\":\"218.102.250.240\",\"port\":\"80\",\"uuid\":\"f25d1510-3763-4fcf-9804-86d6c1566629\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1FB\U0001F1F3越南-0001\",\"ws-opts\":{\"path\":\"/hahuutung\",\"headers\":{\"host\":\"103.197.184.42\"}},\"server\":\"103.197.184.42\",\"port\":\"80\",\"uuid\":\"7bea35a3-d29c-4a33-b471-1eb63b3ecf70\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1F3中国-0001\",\"ws-opts\":{\"path\":\"/speedtest/Amsterdam.kotick.site\",\"headers\":{\"host\":\"5.walidfree5.workers.dev\"}},\"server\":\"5.walidfree5.workers.dev\",\"port\":\"443\",\"uuid\":\"0426AD3E-67E3-48DC-B6CC-8CE2FBE875EF\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1F0\U0001F1F7韩国-0001\",\"ws-opts\":{\"path\":\"/hls/cctv5phd.m3u8\",\"headers\":{\"host\":\"jp02-vm0.entry.ikuuu.casa\"}},\"server\":\"jp02-vm0.entry.ikuuu.casa\",\"port\":\"448\",\"uuid\":\"e1241a61-e533-3aa0-a25e-ad86cf34cd64\",\"alterId\":\"1\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0016\",\"ws-opts\":{\"path\":\"/zh-cn\",\"headers\":{\"host\":\"us2.sanfencdn.net\"}},\"server\":\"cfcdn.sanfencdn.net\",\"port\":\"443\",\"uuid\":\"da9d5c74-a572-4cf4-a375-19b886f5ffc4\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1EE\U0001F1E9印度尼西亚-0001\",\"ws-opts\":{\"path\":\"/v2ray\",\"headers\":{\"host\":\"free-id.ajunstores.me\"}},\"server\":\"free-id.ajunstores.me\",\"port\":\"80\",\"uuid\":\"22ad3dff-66b4-4e69-b2db-bf43c4614761\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1ED\U0001F1F0香港-0002\",\"ws-opts\":{\"path\":\"/zh-cn\",\"headers\":{\"host\":\"www.microsoft.com\"}},\"server\":\"hk1.b.bd6b6c503c93.sanfen001.pics\",\"port\":\"443\",\"uuid\":\"da9d5c74-a572-4cf4-a375-19b886f5ffc4\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0017\",\"ws-opts\":{\"path\":\"/zh-cn\",\"headers\":{\"host\":\"us2.sanfencdn.net\"}},\"server\":\"cfcdn.sanfencdn.net\",\"port\":\"443\",\"uuid\":\"da9d5c74-a572-4cf4-a375-19b886f5ffc4\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1EE\U0001F1F2马恩岛-0001\",\"ws-opts\":{\"path\":\"/l8q5rhz1\",\"headers\":{\"host\":\"fr-1.0rd.net\"}},\"server\":\"hopev2ray.ddns.net\",\"port\":\"443\",\"uuid\":\"31e6c160-cb44-11ed-b836-205c6d5f5d78\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0018\",\"ws-opts\":{\"path\":\"/shirker\",\"headers\":{\"host\":\"ca.ilovescp.com\"}},\"server\":\"cf-lt-dns.sharecentre.online\",\"port\":\"443\",\"uuid\":\"823c31da-701f-483d-b36e-896e5cf0987a\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1FA\U0001F1F8美国-0004\",\"ws-opts\":{\"path\":\"/tg@sudoxin\",\"headers\":{\"host\":\"woiden-pl1-sudoxin.imnibaba.wiki\"}},\"server\":\"cdn.imnibaba.wiki\",\"port\":\"2052\",\"uuid\":\"5d5a8751-89dc-4b58-85ea-0da8fe5a32ac\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0019\",\"ws-opts\":{\"path\":\"/shirker\",\"headers\":{\"host\":\"dp3.scproxy.top\"}},\"server\":\"cf-lt.sharecentre.online\",\"port\":\"80\",\"uuid\":\"823c31da-701f-483d-b36e-896e5cf0987a\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0020\",\"ws-opts\":{\"path\":\"/aaaa\",\"headers\":{\"host\":\"dj02.yumili.cf\"}},\"server\":\"dj02.yumili.cf\",\"port\":\"2096\",\"uuid\":\"c5cd4673-78de-43cd-b461-dd245c51f7b1\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0021\",\"ws-opts\":{\"path\":\"/tg@herhero6\",\"headers\":{\"host\":\"sg.herofree66.tk\"}},\"server\":\"sg.herofree66.tk\",\"port\":\"443\",\"uuid\":\"5e3d4757-1395-4843-d498-bf7317470085\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1EB\U0001F1F7法国-0001\",\"ws-opts\":{\"path\":\"/shirker\",\"headers\":{\"host\":\"dp3.scproxy.top\"}},\"server\":\"cf-lt.sharecentre.online\",\"port\":\"80\",\"uuid\":\"823c31da-701f-483d-b36e-896e5cf0987a\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1FA\U0001F1F8美国-0005\",\"ws-opts\":{\"path\":\"/jksgjhsk\",\"headers\":{\"host\":\"nine.hucloud-dns.xyz\"}},\"server\":\"nine.hucloud-dns.xyz\",\"port\":\"443\",\"uuid\":\"418f2b4b-8942-47c8-a452-445b376d3cac\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1FA\U0001F1F8美国-0006\",\"ws-opts\":{\"path\":\"/yfjc/nl2?ed=2048\",\"headers\":{\"host\":\"nl2.yfjc.sbs\"}},\"server\":\"zfc.windowsupdate1.com\",\"port\":\"443\",\"uuid\":\"b79a9be5-0fc7-426c-9741-602ba021db36\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1ED\U0001F1F0香港-0003\",\"ws-opts\":{\"path\":\"/aws-china-media/Y699Gjx2rNw.mp4\",\"headers\":{\"host\":\"media.amazonwebservices.com\"}},\"server\":\"hkt1-tg-data.amazonwebservicess.com\",\"port\":\"80\",\"uuid\":\"a4408756-1d34-4df0-a6c9-e63226e0ab93\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1ED\U0001F1F0香港-0004\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"player12.tehrankaraj.ml\"}},\"server\":\"cf.163453.xyz\",\"port\":\"8443\",\"uuid\":\"f92d9bbe-1e0e-49bf-f72d-af327d1158d8\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0022\",\"ws-opts\":{\"path\":\"/shirker\",\"headers\":{\"host\":\"dp3.scproxy.top\"}},\"server\":\"cf-lt.sharecentre.online\",\"port\":\"80\",\"uuid\":\"823c31da-701f-483d-b36e-896e5cf0987a\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0023\",\"ws-opts\":{\"path\":\"/shirker\",\"headers\":{\"host\":\"ca.ilovescp.com\"}},\"server\":\"ca.ilovescp.com\",\"port\":\"443\",\"uuid\":\"823c31da-701f-483d-b36e-896e5cf0987a\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0024\",\"ws-opts\":{\"path\":\"/aries?ed=2048\",\"headers\":{\"host\":\"pl.cloudflare.quest\"}},\"server\":\"cf.noaries.de\",\"port\":\"2052\",\"uuid\":\"01d07cdf-aa5e-4889-8cbd-bd2b88179a85\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1EF\U0001F1F5日本-0002\",\"ws-opts\":{\"path\":\"/zh-cn\",\"headers\":{\"host\":\"www.microsoft.com\"}},\"server\":\"jp2.af49c4e4c2ef.sanfen001.pics\",\"port\":\"443\",\"uuid\":\"da9d5c74-a572-4cf4-a375-19b886f5ffc4\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1FA\U0001F1F8美国-0007\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"join-bede.vmessorg.fun\"}},\"server\":\"join-bede.vmessorg.fun\",\"port\":\"80\",\"uuid\":\"d5c0e279-79f9-4fa8-f828-b2a045d939c0\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0025\",\"ws-opts\":{\"path\":\"/aries?ed=2048\",\"headers\":{\"host\":\"ft.cloudflare.quest\"}},\"server\":\"cf.noaries.de\",\"port\":\"8080\",\"uuid\":\"44ca94c0-b0c8-4e15-ab35-0a7947d7093b\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1FA\U0001F1F8美国-0008\",\"ws-opts\":{\"path\":\"/vm\",\"headers\":{\"host\":\"ra.679888.xyz\"}},\"server\":\"ra.679888.xyz\",\"port\":\"443\",\"uuid\":\"3c004072-345b-48a7-e8ab-469968022b66\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0026\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"reza.aliyari.cf\"}},\"server\":\"reza.aliyari.cf\",\"port\":\"2053\",\"uuid\":\"84d8a5f2-703b-4a20-ca24-2107a2902c75\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0027\",\"ws-opts\":{\"path\":\"/shirker\",\"headers\":{\"host\":\"dp3.scproxy.top\"}},\"server\":\"cf-yd-dns.sharecentre.online\",\"port\":\"80\",\"uuid\":\"823c31da-701f-483d-b36e-896e5cf0987a\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1FA\U0001F1F8美国-0009\",\"ws-opts\":{\"path\":\"/video\",\"headers\":{\"host\":\"usg.fljsm.com\"}},\"server\":\"usg.fljsm.com\",\"port\":\"443\",\"uuid\":\"e5543efd-5400-3760-9bb6-02767728e888\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0028\",\"ws-opts\":{\"path\":\"/shirker\",\"headers\":{\"host\":\"dp3.scproxy.top\"}},\"server\":\"dp3.scproxy.top\",\"port\":\"443\",\"uuid\":\"823c31da-701f-483d-b36e-896e5cf0987a\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0029\",\"ws-opts\":{\"path\":\"/current_time\",\"headers\":{\"host\":\"holyquran10.store\"}},\"server\":\"holyquran10.store\",\"port\":\"443\",\"uuid\":\"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1FA\U0001F1F8美国-0010\",\"ws-opts\":{\"path\":\"/current_time\",\"headers\":{\"host\":\"holyquran4.store\"}},\"server\":\"holyquran4.store\",\"port\":\"443\",\"uuid\":\"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0030\",\"ws-opts\":{\"path\":\"/shirker\",\"headers\":{\"host\":\"ny1.sharecentrepro.org\"}},\"server\":\"cf-dx-dns.sharecentre.online\",\"port\":\"80\",\"uuid\":\"823c31da-701f-483d-b36e-896e5cf0987a\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1EC\U0001F1E7英国-0004\",\"ws-opts\":{\"path\":\"/dp2.scproxy.top/shirker\",\"headers\":{\"host\":\"irancelll.appsandhack2.tech\"}},\"server\":\"mtn.ircf.space\",\"port\":\"443\",\"uuid\":\"823c31da-701f-483d-b36e-896e5cf0987a\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1FA\U0001F1F8美国-0011\",\"ws-opts\":{\"path\":\"/111\",\"headers\":{\"host\":\"dg.glucy.top\"}},\"server\":\"dg.glucy.top\",\"port\":\"443\",\"uuid\":\"aad35faa-883a-421f-d0a7-5f49f67ab294\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0031\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"woiden.739256.xyz\"}},\"server\":\"visa.com\",\"port\":\"443\",\"uuid\":\"d05d144a-71a9-4720-8c4e-565257953069\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1ED\U0001F1F0香港-0005\",\"ws-opts\":{\"path\":\"/aws-china-media/Y699Gjx2rNw.mp4\",\"headers\":{\"host\":\"media.amazonwebservices.com\"}},\"server\":\"hkt9.amazonwebservicess.com\",\"port\":\"80\",\"uuid\":\"feab64f1-6a31-44c9-b502-19712d7af318\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0032\",\"ws-opts\":{\"path\":\"/E86414F638E11\",\"headers\":{\"host\":\"france1.yj2022.ga\"}},\"server\":\"cf.yj2022.ga\",\"port\":\"443\",\"uuid\":\"4b5e4565-322f-4223-a891-78a84f189726\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0033\",\"ws-opts\":{\"path\":\"/UMW36262\",\"headers\":{\"host\":\"frgt1.ssr-free2.xyz\"}},\"server\":\"frgt1.ssr-free2.xyz\",\"port\":\"443\",\"uuid\":\"9379fea0-006d-4fd3-8e35-d45a5af72aa2\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1EE\U0001F1F9意大利-0001\",\"ws-opts\":{\"path\":\"/hls/cctv5phd.m3u8\",\"headers\":{\"host\":\"jp01-vm0.entry.ikuuu.casa\"}},\"server\":\"jp01-vm0.entry.ikuuu.casa\",\"port\":\"448\",\"uuid\":\"e1241a61-e533-3aa0-a25e-ad86cf34cd64\",\"alterId\":\"1\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0034\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"woiden.739256.xyz\"}},\"server\":\"woiden.739256.xyz\",\"port\":\"443\",\"uuid\":\"d05d144a-71a9-4720-8c4e-565257953069\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0035\",\"ws-opts\":{\"path\":\"/c986\",\"headers\":{\"host\":\"poland.seeworld.pro\"}},\"server\":\"ai.com\",\"port\":\"8880\",\"uuid\":\"be35f39f-571d-4240-8ab2-8055aae3a53e\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1F8\U0001F1EC新加坡-0001\",\"ws-opts\":{\"path\":\"/aws-china-media/Y699Gjx2rNw.mp4\",\"headers\":{\"host\":\"media.amazonwebservices.com\"}},\"server\":\"awssg16-data.amazon-azure.com\",\"port\":\"443\",\"uuid\":\"0df905b2-a67d-48b4-b43b-894a52e0aaee\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0036\",\"ws-opts\":{\"path\":\"/shirker\",\"headers\":{\"host\":\"dp3.scproxy.top\"}},\"server\":\"www.gov.tw\",\"port\":\"443\",\"uuid\":\"823c31da-701f-483d-b36e-896e5cf0987a\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0037\",\"ws-opts\":{\"path\":\"/tg@herhero6\",\"headers\":{\"host\":\"sg.herofree66.tk\"}},\"server\":\"sg.herofree66.tk\",\"port\":\"443\",\"uuid\":\"5e3d4757-1395-4843-d498-bf7317470085\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1FA\U0001F1F8美国-0012\",\"ws-opts\":{\"path\":\"/filetransfer\",\"headers\":{\"host\":\"us-east-1.292228.xyz\"}},\"server\":\"target.292228.xyz\",\"port\":\"80\",\"uuid\":\"12b1bed9-1534-41db-a530-a1dbf6c2a7c6\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1F8\U0001F1EC新加坡-0002\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"n1674862946.zhidemy.cn\"}},\"server\":\"n1674862946.zhidemy.cn\",\"port\":\"443\",\"uuid\":\"badeb774-de36-4d24-b39f-e09e41e1a23a\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1EC\U0001F1E7英国-0005\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"reza.aliyari.cf\"}},\"server\":\"fast_2ray_channel.fastv2ray.eu.org\",\"port\":\"2053\",\"uuid\":\"84d8a5f2-703b-4a20-ca24-2107a2902c75\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1F8\U0001F1EC新加坡-0003\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"n1674862978.ppinygu.cn\"}},\"server\":\"n1674862978.ppinygu.cn\",\"port\":\"443\",\"uuid\":\"2b1e417b-9575-498f-bde9-6958188e9532\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1FA\U0001F1F8美国-0013\",\"ws-opts\":{\"path\":\"/jp143-d2xddxxj\",\"headers\":{\"host\":\"v143.toddns.tk\"}},\"server\":\"v143.toddns.tk\",\"port\":\"80\",\"uuid\":\"a25881f3-967f-3265-bc7f-9e66857b016b\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0038\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"vi.mot20.ga\"}},\"server\":\"vi.mot20.ga\",\"port\":\"8080\",\"uuid\":\"342e932e-d990-4ad4-b38a-837a8ed3463c\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1F8\U0001F1EC新加坡-0004\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"n1674862955.jfzlasi.cn\"}},\"server\":\"n1674862955.jfzlasi.cn\",\"port\":\"443\",\"uuid\":\"022c42ba-c662-49bd-bd8c-f8428e6aa91c\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0039\",\"ws-opts\":{\"path\":\"/current_time\",\"headers\":{\"host\":\"cf-topspeedonline.uk\"}},\"server\":\"cf-topspeedonline.uk\",\"port\":\"443\",\"uuid\":\"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0040\",\"ws-opts\":{\"path\":\"/mR17oBKzZ7\",\"headers\":{\"host\":\"d.pgypgykmoljklj.xyz\"}},\"server\":\"d.pgypgykmoljklj.xyz\",\"port\":\"443\",\"uuid\":\"fa4cb529-3ac9-4268-bb04-ed4253813508\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1FA\U0001F1F8美国-0014\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"sg4.562148.xyz\"}},\"server\":\"cf.noaries.de\",\"port\":\"80\",\"uuid\":\"314c1387-618c-4689-97fc-4bc9a1ae5e05\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1FA\U0001F1F8美国-0015\",\"ws-opts\":{\"path\":\"/aries?ed=2048\",\"headers\":{\"host\":\"ovh.cloudflare.quest\"}},\"server\":\"cf.noaries.de\",\"port\":\"2086\",\"uuid\":\"01d07cdf-aa5e-4889-8cbd-bd2b88179a85\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1F8\U0001F1EC新加坡-0005\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"n1674862935.eaurlmj.cn\"}},\"server\":\"n1674862935.eaurlmj.cn\",\"port\":\"443\",\"uuid\":\"a314da3c-e126-45bb-8a28-b28ab452d942\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0041\",\"ws-opts\":{\"path\":\"/current_time\",\"headers\":{\"host\":\"holyquran3.store\"}},\"server\":\"holyquran3.store\",\"port\":\"443\",\"uuid\":\"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0042\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"t4.l9liiii.info\"}},\"server\":\"dark100.viporg12345.info\",\"port\":\"8443\",\"uuid\":\"457d1938-cb62-4ce7-c13a-96b6812b9f05\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1EE\U0001F1E9印度尼西亚-0002\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"id17tk.ifengsoutu233.tk\"}},\"server\":\"id17tk.ifengsoutu233.tk\",\"port\":\"18888\",\"uuid\":\"b065b64a-905a-494a-a25f-5e313e93cca8\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E6\U0001F1EA阿联酋-0001\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"lf3-cdn-tos.bytescm.com\"}},\"server\":\"uae.iggfastweb.com\",\"port\":\"36200\",\"uuid\":\"9e0822c2-75ea-4d30-8895-9fe59da9935c\",\"alterId\":\"2\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1EC\U0001F1E7英国-0006\",\"ws-opts\":{\"path\":\"/current_time\",\"headers\":{\"host\":\"cf-topspeedvv2.uk\"}},\"server\":\"legenderyserversirn.ddns.net\",\"port\":\"443\",\"uuid\":\"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0043\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"fr.binghe.design\"}},\"server\":\"fr.binghe.design\",\"port\":\"443\",\"uuid\":\"f9e7833c-4889-427c-bb10-dff63d103945\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1FA\U0001F1F8美国-0016\",\"ws-opts\":{\"path\":\"/ray\",\"headers\":{\"host\":\"vceu3-xxx.875555.xyz\"}},\"server\":\"cf.515188.xyz\",\"port\":\"443\",\"uuid\":\"e869590b-3f0b-45ea-8ec5-d0c72b8023b0\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0044\",\"ws-opts\":{\"path\":\"/worryfree\",\"headers\":{\"host\":\"dynamic-sg2b.obfs.xyz\"}},\"server\":\"www.udemy.com\",\"port\":\"443\",\"uuid\":\"afe07da4-e28c-4921-affa-4a5fb4696c04\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1ED\U0001F1F0香港-0006\",\"ws-opts\":{\"path\":\"/aws-china-media/Y699Gjx2rNw.mp4\",\"headers\":{\"host\":\"media.amazonwebservices.com\"}},\"server\":\"hkt5.amazonwebservicess.com\",\"port\":\"80\",\"uuid\":\"f25d1510-3763-4fcf-9804-86d6c1566629\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0045\",\"ws-opts\":{\"path\":\"/miaowkl\",\"headers\":{\"host\":\"wkldmcatk.76898102.xyz\"}},\"server\":\"wkldmcatk.76898102.xyz\",\"port\":\"2052\",\"uuid\":\"9e89e407-3b77-31fd-931d-c7f300f24dfa\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0046\",\"ws-opts\":{\"path\":\"/cf01\",\"headers\":{\"host\":\"1st.starvskii2world.top\"}},\"server\":\"1st.starvskii2world.top\",\"port\":\"443\",\"uuid\":\"3c530a57-f1f0-4fe0-92c3-7287a5251f97\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1F3中国-0002\",\"ws-opts\":{\"path\":\"/douyulive\",\"headers\":{\"host\":\"douyucdn.com\"}},\"server\":\"de.edgehelper.com\",\"port\":\"24100\",\"uuid\":\"9e0822c2-75ea-4d30-8895-9fe59da9935c\",\"alterId\":\"2\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0047\",\"ws-opts\":{\"path\":\"/current_time\",\"headers\":{\"host\":\"quranweb23.xyz\"}},\"server\":\"quranweb23.xyz\",\"port\":\"443\",\"uuid\":\"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":true}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1FA\U0001F1F8美国-0017\",\"ws-opts\":{\"path\":\"/api/v3/download.getFile\",\"headers\":{\"host\":\"ssrsub.v10.asuka.buzz\"}},\"server\":\"cf.noaries.de\",\"port\":\"8080\",\"uuid\":\"fe8b7cbe-e217-4741-95d0-a58075051950\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1E8\U0001F1E6加拿大-0048\",\"ws-opts\":{\"path\":\"/filetransfer\",\"headers\":{\"host\":\"us-east-1.292228.xyz\"}},\"server\":\"target.292228.xyz\",\"port\":\"80\",\"uuid\":\"12b1bed9-1534-41db-a530-a1dbf6c2a7c6\",\"alterId\":\"0\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
-- "{\"type\":\"vmess\",\"name\":\"\U0001F1EF\U0001F1F5日本-0003\",\"ws-opts\":{\"path\":\"/\",\"headers\":{\"host\":\"broadcastlv.chat.bilibili.com\"}},\"server\":\"jp-ty2.iggfastweb.com\",\"port\":\"26500\",\"uuid\":\"9e0822c2-75ea-4d30-8895-9fe59da9935c\",\"alterId\":\"2\",\"cipher\":\"auto\",\"network\":\"ws\",\"tls\":false}"
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8美国-0001"
+  wsOpts:
+    path: /ECTCJ0DF
+    headers:
+      host: 154.v2ray3.xyz
+  server: 203.30.190.1
+  port: 443
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8美国-0002"
+  wsOpts:
+    path: /
+    headers:
+      host: lg.v2ray8.xyz
+  server: 141.101.114.150
+  port: 80
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0001"
+  wsOpts:
+    path: /
+    headers:
+      host: us-1.acyun.eu.org
+  server: 162.159.255.200
+  port: 80
+  uuid: 52466dc2-3550-4310-910c-74b7bf8a020e
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1F7\U0001F1FA俄罗斯联邦-0001"
+  wsOpts:
+    path: /6e9EtZ2dL
+    headers:
+      host: dengxin.one
+  server: 185.143.220.25
+  port: 443
+  uuid: f28e354e-c2d1-4983-9b07-5acaf1b3b3e5
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1EC\U0001F1E7英国-0001"
+  wsOpts:
+    path: /ECTCJ0DF
+    headers:
+      host: 154.v2ray3.xyz
+  server: 185.162.228.1
+  port: 443
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0002"
+  wsOpts:
+    path: /vmess
+    headers:
+      host: de-v.sshmax.xyz
+  server: 104.16.176.44
+  port: 443
+  uuid: c002de50-e64e-4328-b98a-fae82bdcafa4
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0003"
+  wsOpts:
+    path: /BVQEA
+    headers:
+      host: fr1.v2ray6.xyz
+  server: 23.227.38.41
+  port: 443
+  uuid: faf28ac6-9109-4cf9-8e88-9798fcab66ed
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E9\U0001F1EA德国-0001"
+  wsOpts:
+    path: /path/120306182525
+    headers:
+      host: www.12939929.xyz
+  server: 51.38.110.143
+  port: 443
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1F7哥斯达黎加-0001"
+  wsOpts:
+    path: /
+    headers:
+      host: fr.v2ray1.xyz
+  server: 190.93.246.2
+  port: 80
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1FE塞浦路斯-0001"
+  wsOpts:
+    path: /5QNROSRV
+    headers:
+      host: clash1.ssr-free2.xyz
+  server: 203.24.108.100
+  port: 443
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0004"
+  wsOpts:
+    path: /wwwnet
+    headers:
+      host: usf.369777.xyz
+  server: 104.16.33.253
+  port: 80
+  uuid: 363b3efe-1b74-38dd-9656-90c292006581
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0005"
+  wsOpts:
+    path: /wwwnet
+    headers:
+      host: usf.ziyun.cyou
+  server: 104.17.165.242
+  port: 8080
+  uuid: 363b3efe-1b74-38dd-9656-90c292006581
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0006"
+  wsOpts:
+    path: /wwwnet
+    headers:
+      host: usc.ziyun.cyou
+  server: 104.17.178.93
+  port: 8080
+  uuid: 363b3efe-1b74-38dd-9656-90c292006581
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0007"
+  wsOpts:
+    path: /wwwnet
+    headers:
+      host: usc.ziyun.cyou
+  server: 104.17.60.111
+  port: 8080
+  uuid: 363b3efe-1b74-38dd-9656-90c292006581
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0008"
+  wsOpts:
+    path: /
+    headers:
+      host: idnusanet.vpnexecutive.my.id
+  server: 104.18.3.2
+  port: 80
+  uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0009"
+  wsOpts:
+    path: /wwwnet
+    headers:
+      host: usc.ziyun.cyou
+  server: 104.19.32.60
+  port: 8080
+  uuid: 363b3efe-1b74-38dd-9656-90c292006581
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0010"
+  wsOpts:
+    path: /oplg1.zhujicn2.com/5QNROSRV
+    headers:
+      host: anonymous.salisa.workers.dev
+  server: 104.21.18.179
+  port: 443
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1EF\U0001F1F5日本-0001"
+  wsOpts:
+    path: /chat
+    headers:
+      host: 143.42.87.69
+  server: 143.42.87.69
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0011"
+  wsOpts:
+    path: /tg:@hkaa0
+    headers:
+      host: us.wyhkaa0.ml
+  server: 162.159.44.164
+  port: 2052
+  uuid: 238abf3f-b88d-4999-ea66-f51a8cd48e7a
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0012"
+  wsOpts:
+    path: /
+    headers:
+      host: us-1.acyun.eu.org
+  server: 162.159.255.205
+  port: 80
+  uuid: 52466dc2-3550-4310-910c-74b7bf8a020e
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0013"
+  wsOpts:
+    path: /
+    headers:
+      host: sg4.562148.xyz
+  server: 172.67.59.53
+  port: 80
+  uuid: 314c1387-618c-4689-97fc-4bc9a1ae5e05
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0014"
+  wsOpts:
+    path: /
+    headers:
+      host: lg.v2ray8.xyz
+  server: 172.67.73.165
+  port: 80
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1EC\U0001F1E7英国-0002"
+  wsOpts:
+    path: /
+    headers:
+      host: h4.mcinet.sbs
+  server: 185.109.21.175
+  port: 8880
+  uuid: c11dde04-3dfa-48e9-8580-7b204b325370
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0015"
+  wsOpts:
+    path: /tg:@hkaa0
+    headers:
+      host: us.wyhkaa0.ml
+  server: 198.41.197.157
+  port: 2095
+  uuid: 3de8ae4c-f379-42f1-990e-24b7ea6eb457
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8美国-0003"
+  wsOpts:
+    path: /ray
+    headers:
+      host: 45.89.106.114
+  server: 45.89.106.114
+  port: 443
+  uuid: 68b2f386-e061-40cb-8ca7-50e06c10b659
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1EC\U0001F1E7英国-0003"
+  wsOpts:
+    path: /
+    headers:
+      host: lg.v2ray8.xyz
+  server: 185.162.228.229
+  port: 80
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1ED\U0001F1F0香港-0001"
+  wsOpts:
+    path: /aws-china-media/Y699Gjx2rNw.mp4
+    headers:
+      host: media.amazonwebservices.com
+  server: 218.102.250.240
+  port: 80
+  uuid: f25d1510-3763-4fcf-9804-86d6c1566629
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1FB\U0001F1F3越南-0001"
+  wsOpts:
+    path: /hahuutung
+    headers:
+      host: 103.197.184.42
+  server: 103.197.184.42
+  port: 80
+  uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0016"
+  wsOpts:
+    path: /shirker
+    headers:
+      host: ca.ilovescp.com
+  server: ca.ilovescp.com
+  port: 443
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8美国-0004"
+  wsOpts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      host: jp03-vm0.entry.ikuuu.casa
+  server: jp03-vm0.entry.ikuuu.casa
+  port: 447
+  uuid: 3046e7e6-1c41-361f-8616-434c76c32d48
+  alterId: 1
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0017"
+  wsOpts:
+    path: /speedtest/Amsterdam.kotick.site
+    headers:
+      host: 5.walidfree5.workers.dev
+  server: 5.walidfree5.workers.dev
+  port: 443
+  uuid: 0426AD3E-67E3-48DC-B6CC-8CE2FBE875EF
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0018"
+  wsOpts:
+    path: /shirker
+    headers:
+      host: dp3.scproxy.top
+  server: cf-yd-dns.sharecentre.online
+  port: 80
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0019"
+  wsOpts:
+    path: /shirker
+    headers:
+      host: dp3.scproxy.top
+  server: cf-dx-dns.sharecentre.online
+  port: 443
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0020"
+  wsOpts:
+    path: /zh-cn
+    headers:
+      host: us2.sanfencdn.net
+  server: cfcdn.sanfencdn.net
+  port: 443
+  uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0021"
+  wsOpts:
+    path: /current_time
+    headers:
+      host: holyquran3.store
+  server: holyquran3.store
+  port: 443
+  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0022"
+  wsOpts:
+    path: /
+    headers:
+      host: reza.aliyari.cf
+  server: reza.aliyari.cf
+  port: 2053
+  uuid: 84d8a5f2-703b-4a20-ca24-2107a2902c75
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0023"
+  wsOpts:
+    path: /shirker
+    headers:
+      host: ca.ilovescp.com
+  server: cf-lt-dns.sharecentre.online
+  port: 443
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1F8\U0001F1EC新加坡-0001"
+  wsOpts:
+    path: /
+    headers:
+      host: n1674862978.ppinygu.cn
+  server: n1674862978.ppinygu.cn
+  port: 443
+  uuid: 2b1e417b-9575-498f-bde9-6958188e9532
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0024"
+  wsOpts:
+    path: /current_time
+    headers:
+      host: quranweb23.xyz
+  server: quranweb23.xyz
+  port: 443
+  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0025"
+  wsOpts:
+    path: /aaaa
+    headers:
+      host: dj02.yumili.cf
+  server: dj02.yumili.cf
+  port: 2096
+  uuid: c5cd4673-78de-43cd-b461-dd245c51f7b1
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1EF\U0001F1F5日本-0002"
+  wsOpts:
+    path: /zh-cn
+    headers:
+      host: www.microsoft.com
+  server: jp2.af49c4e4c2ef.sanfen001.pics
+  port: 443
+  uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0026"
+  wsOpts:
+    path: /mR17oBKzZ7
+    headers:
+      host: d.pgypgykmoljklj.xyz
+  server: d.pgypgykmoljklj.xyz
+  port: 443
+  uuid: fa4cb529-3ac9-4268-bb04-ed4253813508
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1ED\U0001F1F0香港-0002"
+  wsOpts:
+    path: /zh-cn
+    headers:
+      host: www.microsoft.com
+  server: hk1.b.bd6b6c503c93.sanfen001.pics
+  port: 443
+  uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0027"
+  wsOpts:
+    path: /shirker
+    headers:
+      host: dp3.scproxy.top
+  server: www.gov.tw
+  port: 443
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0028"
+  wsOpts:
+    path: /aries?ed=2048
+    headers:
+      host: ovh.cloudflare.quest
+  server: cf.noaries.de
+  port: 8880
+  uuid: 44ca94c0-b0c8-4e15-ab35-0a7947d7093b
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0029"
+  wsOpts:
+    path: /
+    headers:
+      host: fr.binghe.design
+  server: fr.binghe.design
+  port: 443
+  uuid: f9e7833c-4889-427c-bb10-dff63d103945
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8美国-0005"
+  wsOpts:
+    path: /tg@sudoxin
+    headers:
+      host: woiden-best1.imnibaba.wiki
+  server: cdn.imnibaba.wiki
+  port: 2052
+  uuid: d8493f64-b8c6-47c6-ff1e-504b8d278c41
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8美国-0006"
+  wsOpts:
+    path: /jp143-d2xddxxj
+    headers:
+      host: v143.toddns.tk
+  server: v143.toddns.tk
+  port: 80
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8美国-0007"
+  wsOpts:
+    path: /aries?ed=2048
+    headers:
+      host: ovh.cloudflare.quest
+  server: cf.noaries.de
+  port: 8880
+  uuid: 44ca94c0-b0c8-4e15-ab35-0a7947d7093b
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0030"
+  wsOpts:
+    path: /shirker
+    headers:
+      host: dp3.scproxy.top
+  server: cf-lt.sharecentre.online
+  port: 80
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1ED\U0001F1F0香港-0003"
+  wsOpts:
+    path: /aws-china-media/Y699Gjx2rNw.mp4
+    headers:
+      host: media.amazonwebservices.com
+  server: hkt1-tg-data.amazonwebservicess.com
+  port: 80
+  uuid: a4408756-1d34-4df0-a6c9-e63226e0ab93
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1EE\U0001F1E9印度尼西亚-0001"
+  wsOpts:
+    path: /v2ray
+    headers:
+      host: free-id.ajunstores.me
+  server: free-id.ajunstores.me
+  port: 80
+  uuid: 22ad3dff-66b4-4e69-b2db-bf43c4614761
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1ED\U0001F1F0香港-0004"
+  wsOpts:
+    path: /aws-china-media/Y699Gjx2rNw.mp4
+    headers:
+      host: media.amazonwebservices.com
+  server: hkt5.amazonwebservicess.com
+  port: 80
+  uuid: f25d1510-3763-4fcf-9804-86d6c1566629
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8美国-0008"
+  wsOpts:
+    path: /api/v3/download.getFile
+    headers:
+      host: ssrsub.v10.asuka.buzz
+  server: cf-lt.sharecentre.online
+  port: 8080
+  uuid: fe8b7cbe-e217-4741-95d0-a58075051950
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8美国-0009"
+  wsOpts:
+    path: /api/v3/download.getFile
+    headers:
+      host: ssrsub.v10.asuka.buzz
+  server: cf-lt.sharecentre.online
+  port: 8080
+  uuid: fe8b7cbe-e217-4741-95d0-a58075051950
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1F2\U0001F1FE马来西亚-0001"
+  wsOpts:
+    path: /
+    headers:
+      host: join-bede.vmessorg.fun
+  server: join-bede.vmessorg.fun
+  port: 80
+  uuid: d5c0e279-79f9-4fa8-f828-b2a045d939c0
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0031"
+  wsOpts:
+    path: /shirker
+    headers:
+      host: dp3.scproxy.top
+  server: cf-lt.sharecentre.online
+  port: 80
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0032"
+  wsOpts:
+    path: /zh-cn
+    headers:
+      host: us2.sanfencdn.net
+  server: cfcdn.sanfencdn.net
+  port: 443
+  uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0033"
+  wsOpts:
+    path: /aries?ed=2048
+    headers:
+      host: ft.cloudflare.quest
+  server: cf.noaries.de
+  port: 8080
+  uuid: 44ca94c0-b0c8-4e15-ab35-0a7947d7093b
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0034"
+  wsOpts:
+    path: /c986
+    headers:
+      host: poland.seeworld.pro
+  server: ai.com
+  port: 8880
+  uuid: be35f39f-571d-4240-8ab2-8055aae3a53e
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0035"
+  wsOpts:
+    path: /UMW36262
+    headers:
+      host: frgt1.ssr-free2.xyz
+  server: frgt1.ssr-free2.xyz
+  port: 443
+  uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0036"
+  wsOpts:
+    path: /current_time
+    headers:
+      host: holyquran10.store
+  server: holyquran10.store
+  port: 443
+  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8美国-0010"
+  wsOpts:
+    path: /
+    headers:
+      host: sg4.562148.xyz
+  server: cf.noaries.de
+  port: 80
+  uuid: 314c1387-618c-4689-97fc-4bc9a1ae5e05
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0037"
+  wsOpts:
+    path: /tg@herhero6
+    headers:
+      host: sg.herofree66.tk
+  server: sg.herofree66.tk
+  port: 443
+  uuid: 5e3d4757-1395-4843-d498-bf7317470085
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0038"
+  wsOpts:
+    path: /current_time
+    headers:
+      host: holyquran4.store
+  server: holyquran4.store
+  port: 443
+  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1F8\U0001F1EC新加坡-0002"
+  wsOpts:
+    path: /aws-china-media/Y699Gjx2rNw.mp4
+    headers:
+      host: media.amazonwebservices.com
+  server: awssg16-data.amazon-azure.com
+  port: 443
+  uuid: 0df905b2-a67d-48b4-b43b-894a52e0aaee
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1EE\U0001F1F2马恩岛-0001"
+  wsOpts:
+    path: /l8q5rhz1
+    headers:
+      host: fr-1.0rd.net
+  server: hopev2ray.ddns.net
+  port: 443
+  uuid: 31e6c160-cb44-11ed-b836-205c6d5f5d78
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0039"
+  wsOpts:
+    path: /miaowkl
+    headers:
+      host: wkldmcatk.76898102.xyz
+  server: wkldmcatk.76898102.xyz
+  port: 2052
+  uuid: 9e89e407-3b77-31fd-931d-c7f300f24dfa
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8美国-0011"
+  wsOpts:
+    path: /aries?ed=2048
+    headers:
+      host: pl.cloudflare.quest
+  server: cf.noaries.de
+  port: 2052
+  uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8美国-0012"
+  wsOpts:
+    path: /vm
+    headers:
+      host: ra.679888.xyz
+  server: ra.679888.xyz
+  port: 443
+  uuid: 3c004072-345b-48a7-e8ab-469968022b66
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0040"
+  wsOpts:
+    path: /tg@herhero6
+    headers:
+      host: sg.herofree66.tk
+  server: sg.herofree66.tk
+  port: 443
+  uuid: 5e3d4757-1395-4843-d498-bf7317470085
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0041"
+  wsOpts:
+    path: /shirker
+    headers:
+      host: dp3.scproxy.top
+  server: cf-lt.sharecentre.online
+  port: 80
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0042"
+  wsOpts:
+    path: /cf01
+    headers:
+      host: 1st.starvskii2world.top
+  server: 1st.starvskii2world.top
+  port: 443
+  uuid: 3c530a57-f1f0-4fe0-92c3-7287a5251f97
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0043"
+  wsOpts:
+    path: /
+    headers:
+      host: woiden.739256.xyz
+  server: visa.com
+  port: 443
+  uuid: d05d144a-71a9-4720-8c4e-565257953069
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0044"
+  wsOpts:
+    path: /current_time
+    headers:
+      host: cf-topspeedonline.uk
+  server: cf-topspeedonline.uk
+  port: 443
+  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3中国-0001"
+  wsOpts:
+    path: /douyulive
+    headers:
+      host: douyucdn.com
+  server: de.edgehelper.com
+  port: 24100
+  uuid: 9e0822c2-75ea-4d30-8895-9fe59da9935c
+  alterId: 2
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E6\U0001F1EA阿联酋-0001"
+  wsOpts:
+    path: /
+    headers:
+      host: lf3-cdn-tos.bytescm.com
+  server: uae.iggfastweb.com
+  port: 36200
+  uuid: 9e0822c2-75ea-4d30-8895-9fe59da9935c
+  alterId: 2
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1EC\U0001F1E7英国-0004"
+  wsOpts:
+    path: /dp2.scproxy.top/shirker
+    headers:
+      host: irancelll.appsandhack2.tech
+  server: mtn.ircf.space
+  port: 443
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1F3\U0001F1F1荷兰-0001"
+  wsOpts:
+    path: /
+    headers:
+      host: t4.l9liiii.info
+  server: dark100.viporg12345.info
+  port: 8443
+  uuid: 457d1938-cb62-4ce7-c13a-96b6812b9f05
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0045"
+  wsOpts:
+    path: /
+    headers:
+      host: vi.mot20.ga
+  server: vi.mot20.ga
+  port: 8080
+  uuid: 342e932e-d990-4ad4-b38a-837a8ed3463c
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8美国-0013"
+  wsOpts:
+    path: /jp143-d2xddxxj
+    headers:
+      host: v143.toddns.tk
+  server: v143.toddns.tk
+  port: 80
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1EE\U0001F1E9印度尼西亚-0002"
+  wsOpts:
+    path: /
+    headers:
+      host: id17tk.ifengsoutu233.tk
+  server: id17tk.ifengsoutu233.tk
+  port: 18888
+  uuid: b065b64a-905a-494a-a25f-5e313e93cca8
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1EF\U0001F1F5日本-0003"
+  wsOpts:
+    path: /
+    headers:
+      host: broadcastlv.chat.bilibili.com
+  server: jp-ty2.iggfastweb.com
+  port: 26500
+  uuid: 9e0822c2-75ea-4d30-8895-9fe59da9935c
+  alterId: 2
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0046"
+  wsOpts:
+    path: /shirker
+    headers:
+      host: dp3.scproxy.top
+  server: cf-lt.sharecentre.online
+  port: 80
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0047"
+  wsOpts:
+    path: /filetransfer
+    headers:
+      host: us-east-1.292228.xyz
+  server: target.292228.xyz
+  port: 80
+  uuid: 12b1bed9-1534-41db-a530-a1dbf6c2a7c6
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1EC\U0001F1E7英国-0005"
+  wsOpts:
+    path: /current_time
+    headers:
+      host: cf-topspeedvv2.uk
+  server: legenderyserversirn.ddns.net
+  port: 443
+  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0048"
+  wsOpts:
+    path: /
+    headers:
+      host: vi.mot20.ga
+  server: vi.mot20.ga
+  port: 8080
+  uuid: 342e932e-d990-4ad4-b38a-837a8ed3463c
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1F8\U0001F1EC新加坡-0003"
+  wsOpts:
+    path: /
+    headers:
+      host: n1674862946.zhidemy.cn
+  server: n1674862946.zhidemy.cn
+  port: 443
+  uuid: badeb774-de36-4d24-b39f-e09e41e1a23a
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1EC\U0001F1E7英国-0006"
+  wsOpts:
+    path: /
+    headers:
+      host: reza.aliyari.cf
+  server: fast_2ray_channel.fastv2ray.eu.org
+  port: 2053
+  uuid: 84d8a5f2-703b-4a20-ca24-2107a2902c75
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1F8\U0001F1EC新加坡-0004"
+  wsOpts:
+    path: /
+    headers:
+      host: n1674862935.eaurlmj.cn
+  server: n1674862935.eaurlmj.cn
+  port: 443
+  uuid: a314da3c-e126-45bb-8a28-b28ab452d942
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0049"
+  wsOpts:
+    path: /worryfree
+    headers:
+      host: dynamic-sg2b.obfs.xyz
+  server: www.udemy.com
+  port: 443
+  uuid: afe07da4-e28c-4921-affa-4a5fb4696c04
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8美国-0014"
+  wsOpts:
+    path: /jksgjhsk
+    headers:
+      host: nine.hucloud-dns.xyz
+  server: nine.hucloud-dns.xyz
+  port: 443
+  uuid: 418f2b4b-8942-47c8-a452-445b376d3cac
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8美国-0015"
+  wsOpts:
+    path: /video
+    headers:
+      host: usg.fljsm.com
+  server: usg.fljsm.com
+  port: 443
+  uuid: e5543efd-5400-3760-9bb6-02767728e888
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8美国-0016"
+  wsOpts:
+    path: /filetransfer
+    headers:
+      host: us-east-1.292228.xyz
+  server: target.292228.xyz
+  port: 80
+  uuid: 12b1bed9-1534-41db-a530-a1dbf6c2a7c6
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1ED\U0001F1F0香港-0005"
+  wsOpts:
+    path: /aws-china-media/Y699Gjx2rNw.mp4
+    headers:
+      host: media.amazonwebservices.com
+  server: hkt9.amazonwebservicess.com
+  port: 80
+  uuid: feab64f1-6a31-44c9-b502-19712d7af318
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1F8\U0001F1EC新加坡-0005"
+  wsOpts:
+    path: /
+    headers:
+      host: n1674862955.jfzlasi.cn
+  server: n1674862955.jfzlasi.cn
+  port: 443
+  uuid: 022c42ba-c662-49bd-bd8c-f8428e6aa91c
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0050"
+  wsOpts:
+    path: /E86414F638E11
+    headers:
+      host: france1.yj2022.ga
+  server: cf.yj2022.ga
+  port: 443
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0051"
+  wsOpts:
+    path: /miao
+    headers:
+      host: gbawbc.76898102.xyz
+  server: gbawbc.76898102.xyz
+  port: 2052
+  uuid: 9e89e407-3b77-31fd-931d-c7f300f24dfa
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0052"
+  wsOpts:
+    path: /shirker
+    headers:
+      host: dp3.scproxy.top
+  server: dp3.scproxy.top
+  port: 443
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8美国-0017"
+  wsOpts:
+    path: /
+    headers:
+      host: woiden.739256.xyz
+  server: woiden.739256.xyz
+  port: 443
+  uuid: d05d144a-71a9-4720-8c4e-565257953069
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8美国-0018"
+  wsOpts:
+    path: /
+    headers:
+      host: join-bede.vmessorg.fun
+  server: join-bede.vmessorg.fun
+  port: 80
+  uuid: d5c0e279-79f9-4fa8-f828-b2a045d939c0
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+- type: vmess
+  name: "\U0001F1E8\U0001F1E6加拿大-0053"
+  wsOpts:
+    path: /111
+    headers:
+      host: dg.glucy.top
+  server: dg.glucy.top
+  port: 443
+  uuid: aad35faa-883a-421f-d0a7-5f49f67ab294
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8美国-0019"
+  wsOpts:
+    path: /yfjc/nl2?ed=2048
+    headers:
+      host: nl2.yfjc.sbs
+  server: zfc.windowsupdate1.com
+  port: 443
+  uuid: b79a9be5-0fc7-426c-9741-602ba021db36
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1ED\U0001F1F0香港-0006"
+  wsOpts:
+    path: /
+    headers:
+      host: player12.tehrankaraj.ml
+  server: cf.163453.xyz
+  port: 8443
+  uuid: f92d9bbe-1e0e-49bf-f72d-af327d1158d8
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1F0\U0001F1F7韩国-0001"
+  wsOpts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      host: jp01-vm0.entry.ikuuu.casa
+  server: jp01-vm0.entry.ikuuu.casa
+  port: 448
+  uuid: e1241a61-e533-3aa0-a25e-ad86cf34cd64
+  alterId: 1
+  cipher: auto
+  network: ws
+  tls: false
 proxy-groups:
 - name: "\U0001F680 节点选择"
   type: select
   proxies: &o0
   - DIRECT
-  - "\U0001F1FA\U0001F1F8美国-0001"
-  - "\U0001F1E8\U0001F1E6加拿大-0002"
-  - "\U0001F1EC\U0001F1E7英国-0001"
-  - "\U0001F1E8\U0001F1E6加拿大-0003"
   - "\U0001F1FA\U0001F1F8美国-0002"
+  - "\U0001F1E8\U0001F1E6加拿大-0001"
   - "\U0001F1F7\U0001F1FA俄罗斯联邦-0001"
+  - "\U0001F1EC\U0001F1E7英国-0001"
+  - "\U0001F1E8\U0001F1E6加拿大-0002"
+  - "\U0001F1E8\U0001F1E6加拿大-0003"
   - "\U0001F1E9\U0001F1EA德国-0001"
   - "\U0001F1E8\U0001F1F7哥斯达黎加-0001"
   - "\U0001F1E8\U0001F1FE塞浦路斯-0001"
@@ -136,83 +1402,111 @@ proxy-groups:
   - "\U0001F1EC\U0001F1E7英国-0003"
   - "\U0001F1ED\U0001F1F0香港-0001"
   - "\U0001F1FB\U0001F1F3越南-0001"
-  - "\U0001F1E8\U0001F1F3中国-0001"
-  - "\U0001F1F0\U0001F1F7韩国-0001"
   - "\U0001F1E8\U0001F1E6加拿大-0016"
-  - "\U0001F1EE\U0001F1E9印度尼西亚-0001"
-  - "\U0001F1ED\U0001F1F0香港-0002"
-  - "\U0001F1E8\U0001F1E6加拿大-0017"
-  - "\U0001F1EE\U0001F1F2马恩岛-0001"
-  - "\U0001F1E8\U0001F1E6加拿大-0018"
   - "\U0001F1FA\U0001F1F8美国-0004"
+  - "\U0001F1E8\U0001F1E6加拿大-0017"
+  - "\U0001F1E8\U0001F1E6加拿大-0018"
   - "\U0001F1E8\U0001F1E6加拿大-0019"
   - "\U0001F1E8\U0001F1E6加拿大-0020"
   - "\U0001F1E8\U0001F1E6加拿大-0021"
-  - "\U0001F1EB\U0001F1F7法国-0001"
-  - "\U0001F1FA\U0001F1F8美国-0005"
-  - "\U0001F1FA\U0001F1F8美国-0006"
-  - "\U0001F1ED\U0001F1F0香港-0003"
-  - "\U0001F1ED\U0001F1F0香港-0004"
   - "\U0001F1E8\U0001F1E6加拿大-0022"
   - "\U0001F1E8\U0001F1E6加拿大-0023"
+  - "\U0001F1F8\U0001F1EC新加坡-0001"
   - "\U0001F1E8\U0001F1E6加拿大-0024"
-  - "\U0001F1EF\U0001F1F5日本-0002"
-  - "\U0001F1FA\U0001F1F8美国-0007"
   - "\U0001F1E8\U0001F1E6加拿大-0025"
-  - "\U0001F1FA\U0001F1F8美国-0008"
+  - "\U0001F1EF\U0001F1F5日本-0002"
   - "\U0001F1E8\U0001F1E6加拿大-0026"
+  - "\U0001F1ED\U0001F1F0香港-0002"
   - "\U0001F1E8\U0001F1E6加拿大-0027"
-  - "\U0001F1FA\U0001F1F8美国-0009"
   - "\U0001F1E8\U0001F1E6加拿大-0028"
   - "\U0001F1E8\U0001F1E6加拿大-0029"
-  - "\U0001F1FA\U0001F1F8美国-0010"
+  - "\U0001F1FA\U0001F1F8美国-0005"
+  - "\U0001F1FA\U0001F1F8美国-0006"
+  - "\U0001F1FA\U0001F1F8美国-0007"
   - "\U0001F1E8\U0001F1E6加拿大-0030"
-  - "\U0001F1EC\U0001F1E7英国-0004"
-  - "\U0001F1FA\U0001F1F8美国-0011"
+  - "\U0001F1ED\U0001F1F0香港-0003"
+  - "\U0001F1EE\U0001F1E9印度尼西亚-0001"
+  - "\U0001F1ED\U0001F1F0香港-0004"
+  - "\U0001F1FA\U0001F1F8美国-0008"
+  - "\U0001F1FA\U0001F1F8美国-0009"
+  - "\U0001F1F2\U0001F1FE马来西亚-0001"
   - "\U0001F1E8\U0001F1E6加拿大-0031"
-  - "\U0001F1ED\U0001F1F0香港-0005"
   - "\U0001F1E8\U0001F1E6加拿大-0032"
   - "\U0001F1E8\U0001F1E6加拿大-0033"
-  - "\U0001F1EE\U0001F1F9意大利-0001"
   - "\U0001F1E8\U0001F1E6加拿大-0034"
   - "\U0001F1E8\U0001F1E6加拿大-0035"
-  - "\U0001F1F8\U0001F1EC新加坡-0001"
   - "\U0001F1E8\U0001F1E6加拿大-0036"
+  - "\U0001F1FA\U0001F1F8美国-0010"
   - "\U0001F1E8\U0001F1E6加拿大-0037"
-  - "\U0001F1FA\U0001F1F8美国-0012"
-  - "\U0001F1F8\U0001F1EC新加坡-0002"
-  - "\U0001F1EC\U0001F1E7英国-0005"
-  - "\U0001F1F8\U0001F1EC新加坡-0003"
-  - "\U0001F1FA\U0001F1F8美国-0013"
   - "\U0001F1E8\U0001F1E6加拿大-0038"
-  - "\U0001F1F8\U0001F1EC新加坡-0004"
+  - "\U0001F1F8\U0001F1EC新加坡-0002"
+  - "\U0001F1EE\U0001F1F2马恩岛-0001"
   - "\U0001F1E8\U0001F1E6加拿大-0039"
+  - "\U0001F1FA\U0001F1F8美国-0011"
+  - "\U0001F1FA\U0001F1F8美国-0012"
   - "\U0001F1E8\U0001F1E6加拿大-0040"
-  - "\U0001F1FA\U0001F1F8美国-0014"
-  - "\U0001F1FA\U0001F1F8美国-0015"
-  - "\U0001F1F8\U0001F1EC新加坡-0005"
   - "\U0001F1E8\U0001F1E6加拿大-0041"
   - "\U0001F1E8\U0001F1E6加拿大-0042"
-  - "\U0001F1EE\U0001F1E9印度尼西亚-0002"
-  - "\U0001F1E6\U0001F1EA阿联酋-0001"
-  - "\U0001F1EC\U0001F1E7英国-0006"
   - "\U0001F1E8\U0001F1E6加拿大-0043"
-  - "\U0001F1FA\U0001F1F8美国-0016"
   - "\U0001F1E8\U0001F1E6加拿大-0044"
-  - "\U0001F1ED\U0001F1F0香港-0006"
+  - "\U0001F1E8\U0001F1F3中国-0001"
+  - "\U0001F1E6\U0001F1EA阿联酋-0001"
+  - "\U0001F1EC\U0001F1E7英国-0004"
+  - "\U0001F1F3\U0001F1F1荷兰-0001"
   - "\U0001F1E8\U0001F1E6加拿大-0045"
-  - "\U0001F1E8\U0001F1E6加拿大-0046"
-  - "\U0001F1E8\U0001F1F3中国-0002"
-  - "\U0001F1E8\U0001F1E6加拿大-0047"
-  - "\U0001F1FA\U0001F1F8美国-0017"
-  - "\U0001F1E8\U0001F1E6加拿大-0048"
+  - "\U0001F1FA\U0001F1F8美国-0013"
+  - "\U0001F1EE\U0001F1E9印度尼西亚-0002"
   - "\U0001F1EF\U0001F1F5日本-0003"
+  - "\U0001F1E8\U0001F1E6加拿大-0046"
+  - "\U0001F1E8\U0001F1E6加拿大-0047"
+  - "\U0001F1EC\U0001F1E7英国-0005"
+  - "\U0001F1E8\U0001F1E6加拿大-0048"
+  - "\U0001F1F8\U0001F1EC新加坡-0003"
+  - "\U0001F1EC\U0001F1E7英国-0006"
+  - "\U0001F1F8\U0001F1EC新加坡-0004"
+  - "\U0001F1E8\U0001F1E6加拿大-0049"
+  - "\U0001F1FA\U0001F1F8美国-0014"
+  - "\U0001F1FA\U0001F1F8美国-0015"
+  - "\U0001F1FA\U0001F1F8美国-0016"
+  - "\U0001F1ED\U0001F1F0香港-0005"
+  - "\U0001F1F8\U0001F1EC新加坡-0005"
+  - "\U0001F1E8\U0001F1E6加拿大-0050"
+  - "\U0001F1E8\U0001F1E6加拿大-0051"
+  - "\U0001F1E8\U0001F1E6加拿大-0052"
+  - "\U0001F1FA\U0001F1F8美国-0017"
+  - "\U0001F1FA\U0001F1F8美国-0018"
+  - "\U0001F1E8\U0001F1E6加拿大-0053"
+  - "\U0001F1FA\U0001F1F8美国-0019"
+  - "\U0001F1ED\U0001F1F0香港-0006"
+  - "\U0001F1F0\U0001F1F7韩国-0001"
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies: *o0
+- name: "\U0001F1FA\U0001F1F8-美国"
+  type: select
+  proxies:
+  - "\U0001F1FA\U0001F1F8美国-0001"
+  - "\U0001F1FA\U0001F1F8美国-0002"
+  - "\U0001F1FA\U0001F1F8美国-0003"
+  - "\U0001F1FA\U0001F1F8美国-0004"
+  - "\U0001F1FA\U0001F1F8美国-0005"
+  - "\U0001F1FA\U0001F1F8美国-0006"
+  - "\U0001F1FA\U0001F1F8美国-0007"
+  - "\U0001F1FA\U0001F1F8美国-0008"
+  - "\U0001F1FA\U0001F1F8美国-0009"
+  - "\U0001F1FA\U0001F1F8美国-0010"
+  - "\U0001F1FA\U0001F1F8美国-0011"
+  - "\U0001F1FA\U0001F1F8美国-0012"
+  - "\U0001F1FA\U0001F1F8美国-0013"
+  - "\U0001F1FA\U0001F1F8美国-0014"
+  - "\U0001F1FA\U0001F1F8美国-0015"
+  - "\U0001F1FA\U0001F1F8美国-0016"
+  - "\U0001F1FA\U0001F1F8美国-0017"
+  - "\U0001F1FA\U0001F1F8美国-0018"
+  - "\U0001F1FA\U0001F1F8美国-0019"
 - name: "\U0001F1E8\U0001F1E6-加拿大"
   type: select
   proxies:
@@ -264,26 +1558,15 @@ proxy-groups:
   - "\U0001F1E8\U0001F1E6加拿大-0046"
   - "\U0001F1E8\U0001F1E6加拿大-0047"
   - "\U0001F1E8\U0001F1E6加拿大-0048"
-- name: "\U0001F1FA\U0001F1F8-美国"
+  - "\U0001F1E8\U0001F1E6加拿大-0049"
+  - "\U0001F1E8\U0001F1E6加拿大-0050"
+  - "\U0001F1E8\U0001F1E6加拿大-0051"
+  - "\U0001F1E8\U0001F1E6加拿大-0052"
+  - "\U0001F1E8\U0001F1E6加拿大-0053"
+- name: "\U0001F1F7\U0001F1FA-俄罗斯联邦"
   type: select
   proxies:
-  - "\U0001F1FA\U0001F1F8美国-0001"
-  - "\U0001F1FA\U0001F1F8美国-0002"
-  - "\U0001F1FA\U0001F1F8美国-0003"
-  - "\U0001F1FA\U0001F1F8美国-0004"
-  - "\U0001F1FA\U0001F1F8美国-0005"
-  - "\U0001F1FA\U0001F1F8美国-0006"
-  - "\U0001F1FA\U0001F1F8美国-0007"
-  - "\U0001F1FA\U0001F1F8美国-0008"
-  - "\U0001F1FA\U0001F1F8美国-0009"
-  - "\U0001F1FA\U0001F1F8美国-0010"
-  - "\U0001F1FA\U0001F1F8美国-0011"
-  - "\U0001F1FA\U0001F1F8美国-0012"
-  - "\U0001F1FA\U0001F1F8美国-0013"
-  - "\U0001F1FA\U0001F1F8美国-0014"
-  - "\U0001F1FA\U0001F1F8美国-0015"
-  - "\U0001F1FA\U0001F1F8美国-0016"
-  - "\U0001F1FA\U0001F1F8美国-0017"
+  - "\U0001F1F7\U0001F1FA俄罗斯联邦-0001"
 - name: "\U0001F1EC\U0001F1E7-英国"
   type: select
   proxies:
@@ -293,10 +1576,6 @@ proxy-groups:
   - "\U0001F1EC\U0001F1E7英国-0004"
   - "\U0001F1EC\U0001F1E7英国-0005"
   - "\U0001F1EC\U0001F1E7英国-0006"
-- name: "\U0001F1F7\U0001F1FA-俄罗斯联邦"
-  type: select
-  proxies:
-  - "\U0001F1F7\U0001F1FA俄罗斯联邦-0001"
 - name: "\U0001F1E9\U0001F1EA-德国"
   type: select
   proxies:
@@ -328,32 +1607,6 @@ proxy-groups:
   type: select
   proxies:
   - "\U0001F1FB\U0001F1F3越南-0001"
-- name: "\U0001F1E8\U0001F1F3-中国"
-  type: select
-  proxies:
-  - "\U0001F1E8\U0001F1F3中国-0001"
-  - "\U0001F1E8\U0001F1F3中国-0002"
-- name: "\U0001F1F0\U0001F1F7-韩国"
-  type: select
-  proxies:
-  - "\U0001F1F0\U0001F1F7韩国-0001"
-- name: "\U0001F1EE\U0001F1E9-印度尼西亚"
-  type: select
-  proxies:
-  - "\U0001F1EE\U0001F1E9印度尼西亚-0001"
-  - "\U0001F1EE\U0001F1E9印度尼西亚-0002"
-- name: "\U0001F1EE\U0001F1F2-马恩岛"
-  type: select
-  proxies:
-  - "\U0001F1EE\U0001F1F2马恩岛-0001"
-- name: "\U0001F1EB\U0001F1F7-法国"
-  type: select
-  proxies:
-  - "\U0001F1EB\U0001F1F7法国-0001"
-- name: "\U0001F1EE\U0001F1F9-意大利"
-  type: select
-  proxies:
-  - "\U0001F1EE\U0001F1F9意大利-0001"
 - name: "\U0001F1F8\U0001F1EC-新加坡"
   type: select
   proxies:
@@ -362,10 +1615,35 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC新加坡-0003"
   - "\U0001F1F8\U0001F1EC新加坡-0004"
   - "\U0001F1F8\U0001F1EC新加坡-0005"
+- name: "\U0001F1EE\U0001F1E9-印度尼西亚"
+  type: select
+  proxies:
+  - "\U0001F1EE\U0001F1E9印度尼西亚-0001"
+  - "\U0001F1EE\U0001F1E9印度尼西亚-0002"
+- name: "\U0001F1F2\U0001F1FE-马来西亚"
+  type: select
+  proxies:
+  - "\U0001F1F2\U0001F1FE马来西亚-0001"
+- name: "\U0001F1EE\U0001F1F2-马恩岛"
+  type: select
+  proxies:
+  - "\U0001F1EE\U0001F1F2马恩岛-0001"
+- name: "\U0001F1E8\U0001F1F3-中国"
+  type: select
+  proxies:
+  - "\U0001F1E8\U0001F1F3中国-0001"
 - name: "\U0001F1E6\U0001F1EA-阿联酋"
   type: select
   proxies:
   - "\U0001F1E6\U0001F1EA阿联酋-0001"
+- name: "\U0001F1F3\U0001F1F1-荷兰"
+  type: select
+  proxies:
+  - "\U0001F1F3\U0001F1F1荷兰-0001"
+- name: "\U0001F1F0\U0001F1F7-韩国"
+  type: select
+  proxies:
+  - "\U0001F1F0\U0001F1F7韩国-0001"
 - name: "\U0001F3AF 全球直连"
   type: select
   proxies:
